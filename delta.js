@@ -1,8 +1,8 @@
 //zadanie 8.5
 var a,b,value;
-a=prompt('Podaj wartość b');
-b=prompt('Podaj wartość c');
-value=(b*b)+(2*b*c)-(c*c);
+a=2;
+b=5;
+value=(a*a)+(2*a*b)-(b*b);
 console.log(value);
 if (value>0) {
 	console.log('wynik dodatni');
@@ -16,7 +16,7 @@ else {
 			console.log('wynik jest równy 0');
 			break;
 		default:
-
+			console.log('wynik jest nieprawidłowy lub wprowadzono nieprawidłowe dane')
 
 	}
 }
